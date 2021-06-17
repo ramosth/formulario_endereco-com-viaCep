@@ -1,0 +1,47 @@
+form {
+  max-width: 90%;
+  width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  text-align: left;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+}
+
+input {
+  background-color: rgb(219, 158, 224);
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 3px solid black;
+  height: 32px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 3px solid rgb(86, 83, 83);
+}
+
+button {
+  width: 100%;
+  font-size: 20px;
+  padding: 16px;
+  background-color: transparent;
+  border: 3px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: rgb(191, 46, 201);
+  color: white;
+  border: 3px solid rgb(191, 46, 201);
+}
